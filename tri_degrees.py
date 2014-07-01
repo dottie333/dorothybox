@@ -19,12 +19,12 @@ def tri_degrees(a,b,c):
         degree_set.sort()
         
         if deg_a == 0 or deg_b == 0 or deg_c == 0:
-            return [0,0,0]
+            return [0,0,0], "*** Not a Triangle ***"
         if deg_a + deg_b + deg_c == 180:
             return degree_set
         
     except ValueError:
-        return [0,0,0]
+        return [0,0,0], "Bad measurements, Not a Triangle ***"
     
     
     
