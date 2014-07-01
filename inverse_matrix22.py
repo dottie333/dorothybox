@@ -10,7 +10,6 @@ def inverse_matrix(data):
         items.append(x)
     return items
 
-
 if __name__ == '__main__':
     print inverse_matrix([[1, 2, 3],
                           [4, 5, 6],

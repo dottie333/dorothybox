@@ -18,12 +18,10 @@ def checkweekends(a,b):
     
         a += timedelta(days = 1)   
         
-    return count
-    
+    return count    
 
-
-print checkweekends(date(2013, 9, 10), date(2013, 9,28))
-print checkweekends(date(2013,1,1),date(2013,2,1))
-print checkweekends(date(2013,3,1),date(2013,3,30))
-
+if __name__ == '__main__':
+    print checkweekends(date(2013, 9, 10), date(2013, 9,28))
+    assert checkweekends(date(2013,1,1),date(2013,2,1))
+    assert checkweekends(date(2013,3,1),date(2013,3,30))
     
