@@ -6,6 +6,7 @@ Created on Thu Jul 03 21:49:48 2014
 """
 
 import numpy as np
+
 def multiple_matrix():
     a = np.matrix([[2,3],[4,7]])
     b = np.matrix([[1,2],[4,3]])
