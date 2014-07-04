@@ -1,24 +1,26 @@
-# Author:  Dorothy H. Sanchez
-# This code build will create the inverse of a matrix
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jul 03 23:03:56 2014
 
+@author: Dorothy H. Sanchez
+"""
+
+from numpy import matrix
 def inverse_matrix(data):
-    items= []
-    new_matrix = [[data[j][i] for j in range(len(data))] for i in range(len(data[0]))]
-
-    for x in new_matrix:
-        #print x
-        items.append(x)
-    return items
-
+    
+    data = matrix(data)
+    
+    return data.I
 
 if __name__ == '__main__':
+    
     print inverse_matrix([[1, 2, 3],
                           [4, 5, 6],
                           [7, 8, 9]]) 
-    assert inverse_matrix([[1, 4, 3],
-                           [8, 2, 6],
-                           [7, 8, 3],
-                           [4, 9, 6],
-                           [7, 8, 1]])
+    print inverse_matrix([[1, 4, 3],
+                          [8, 2, 6],
+                          [7, 8, 3],
+                          [4, 9, 6],
+                          [7, 8, 1]])
 
 

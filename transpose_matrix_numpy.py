@@ -6,7 +6,7 @@ Created on Thu Jul 03 23:03:56 2014
 """
 
 from numpy import matrix
-def inverse_matrix(data):
+def transpose_matrix(data):
     
     data = matrix(data)
     
@@ -14,10 +14,10 @@ def inverse_matrix(data):
 
 if __name__ == '__main__':
     
-    print inverse_matrix([[1, 2, 3],
+    print transpose_matrix([[1, 2, 3],
                           [4, 5, 6],
                           [7, 8, 9]]) 
-    print inverse_matrix([[1, 4, 3],
+    print transpose_matrix([[1, 4, 3],
                           [8, 2, 6],
                           [7, 8, 3],
                           [4, 9, 6],
