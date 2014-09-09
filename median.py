@@ -4,7 +4,7 @@ Created on Wed Jul 02 00:58:01 2014
 
 @author: Dorothy H. Sanchez
 """
-# This will you median of a sample set
+# This will give you median of a sample set
 
 def find_median(data):
     data = sorted(data)

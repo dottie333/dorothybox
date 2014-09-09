@@ -24,14 +24,14 @@ def tri_degrees(a,b,c):
             return degree_set
         
     except ValueError:
-        return [0,0,0], "Bad measurements, Not a Triangle ***" 
+        return [0,0,0], "Bad measurements, Not a Triangle" 
     
 if __name__ == '__main__':
     assert tri_degrees(8,6,7)
     print tri_degrees(4,4,4)
     print tri_degrees(3,4,5)
     print tri_degrees(2,2,5)
-    assert tri_degrees(10,20,30)
+    print tri_degrees(10,20,30)
  
 
 

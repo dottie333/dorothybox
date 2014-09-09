@@ -1,5 +1,5 @@
 # Author:  Dorothy H. Sanchez
-# This code build will create the inverse of a matrix
+# This code build will create the transpose of a matrix
 
 def transpose_matrix(data):
     items= []
