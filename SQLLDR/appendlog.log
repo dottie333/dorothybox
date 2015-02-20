@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Feb 19 22:10:44 2015
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   append_loader.ctl
+Data File:      append_loader.ctl
+  Bad File:     appendbad.bad
+  Discard File: appenddiscard.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CSV_EMPLOYEES, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPLOYEE_ID                         FIRST     *  WHT      CHARACTER            
+FIRST_NAME                           NEXT     *  WHT      CHARACTER            
+LAST_NAME                            NEXT     *  WHT      CHARACTER            
+HIRE_DATE                            NEXT     *  WHT      CHARACTER            
+JOB_ID                               NEXT     *  WHT      CHARACTER            
+SALARY                               NEXT     *  WHT      CHARACTER            
+MANAGER_ID                           NEXT     *  WHT      CHARACTER            
+DEPARTMENT_ID                        NEXT     *  WHT      CHARACTER            
+
+
+Table CSV_EMPLOYEES:
+  5 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 132096 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             5
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Feb 19 22:10:44 2015
+Run ended on Thu Feb 19 22:10:44 2015
+
+Elapsed time was:     00:00:00.37
+CPU time was:         00:00:00.01

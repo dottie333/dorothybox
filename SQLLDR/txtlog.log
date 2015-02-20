@@ -1,0 +1,64 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Feb 19 21:40:57 2015
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   txt_loader.ctl
+Data File:      D:\interview_project\txt_data.txt
+  Bad File:     txt.bad
+  Discard File: txtdiscard.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table HR.TXT_EMPLOYEES, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPLOYEE_ID                         FIRST     *  WHT      CHARACTER            
+FIRST_NAME                           NEXT     *  WHT      CHARACTER            
+LAST_NAME                            NEXT     *  WHT      CHARACTER            
+HIRE_DATE                            NEXT     *  WHT      CHARACTER            
+JOB_ID                               NEXT     *  WHT      CHARACTER            
+SALARY                               NEXT     *  WHT      CHARACTER            
+MANAGER_ID                           NEXT     *  WHT      CHARACTER            
+    NULL if MANAGER_ID = BLANKS
+DEPARTMENT_ID                        NEXT     *  WHT      CHARACTER            
+    NULL if DEPARTMENT_ID = BLANKS
+
+
+Table HR.TXT_EMPLOYEES:
+  107 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+  Date cache:
+   Max Size:      1000
+   Entries :        98
+   Hits    :         9
+   Misses  :         0
+
+Bind array size not used in direct path.
+Column array  rows :    5000
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           107
+Total logical records rejected:         0
+Total logical records discarded:        0
+Total stream buffers loaded by SQL*Loader main thread:        2
+Total stream buffers loaded by SQL*Loader load thread:        0
+
+Run began on Thu Feb 19 21:40:57 2015
+Run ended on Thu Feb 19 21:40:57 2015
+
+Elapsed time was:     00:00:00.16
+CPU time was:         00:00:00.01
