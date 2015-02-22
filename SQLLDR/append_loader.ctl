@@ -11,3 +11,4 @@ BEGINDATA
 777	Daniel	Smith	16-AUG-94 	FI_ACCOUNT	9000	108	100                              
 888	John	Kamar	28-SEP-97 	FI_ACCOUNT	8200	108	100                          
 999	Ismael	Brown	30-SEP-97 	FI_ACCOUNT	7700	108	100                          
+.

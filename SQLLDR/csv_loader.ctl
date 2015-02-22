@@ -6,3 +6,4 @@ TRAILING NULLCOLS
 (employee_id, first_name, last_name, 
 hire_date, job_id, salary,
 manager_id nullif manager_id = BLANKS, department_id nullif department_id= BLANKS)
+.

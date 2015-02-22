@@ -1,4 +1,4 @@
-EMPLOYEE_ID	FIRST_NAME	LAST_NAME	HIRE_DATE	JOB_ID	SALARY	MANAGER_ID	DEPARTMENT_ID                               
+.EMPLOYEE_ID	FIRST_NAME	LAST_NAME	HIRE_DATE	JOB_ID	SALARY	MANAGER_ID	DEPARTMENT_ID                               
 100	Steven	King	17-JUN-87	AD_PRES	24000		90                          
 101	Neena	Kochhar	21-SEP-89 	AD_VP	17000	100	90                          
 102	Lex	De Haan	13-JAN-93 	AD_VP	17000	100	90                          

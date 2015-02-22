@@ -1,4 +1,4 @@
-Read Me
+Read Me.
 
 This is a presentation I made for a job interview.
   
