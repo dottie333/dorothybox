@@ -1,4 +1,4 @@
-.load data
+load data
 infile 'D:\interview_project\txt_data.txt'
 into table hr.txt_employees
 fields terminated by '\t'
