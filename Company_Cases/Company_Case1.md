@@ -5,10 +5,10 @@ The company has 2 tables:
 
 Stage_employee table as follows:
 
-|Employee_id 	|	char(8)|
-|First_name	|	nvarchar2(100)|
-|Last_name	|	nvarchar2(100)|
-|Email_address	|	nvarhar2(1000)|
+		|Employee_id 		|char(8)|
+		|First_name		|nvarchar2(100)|
+		|Last_name		|nvarchar2(100)|
+		|Email_address		|nvarhar2(1000)|
 
 Employee_email table as follows:
 
@@ -22,21 +22,24 @@ and insert them into the employee_email table.
  
 The sample stage_employee table
 
-|Employee_id	|	12345|
-|First_name	|	John|
-|Last_name	|	Doe|
-|Email_address	| johndoe@riverside.com;jdoe@riverside.com;doe.john@riverside.com|
+	|Employee_id		|12345|
+	|First_name		|John|
+	|Last_name		|Doe|
+	|Email_address		|johndoe@riverside.com;jdoe@riverside.com;doe.john@riverside.com|
 
 The results in the employee_email table should look like the following:
 
-Record 1	|employee_id	|	12345|
-		|Email_address	|	johndoe@riverside.com|
+Record 1	
+		|employee_id		|12345|
+		|Email_address		|johndoe@riverside.com|
 
-Record 2	|employee_id	|	12345|
-		|Email_address	|	jdoe@riverside.com|
+Record 2	
+		|employee_id		|12345|
+		|Email_address		|jdoe@riverside.com|
 
-Record3		|employee_id	|	12345|
-		|Email_address	|	doe.john@riverside.com|
+Record3		
+		|employee_id		|12345|
+		|Email_address		|doe.john@riverside.com|
 
 
 # Company Solution
@@ -55,9 +58,11 @@ For SQL Server 2012, follow procedure **email_procedure.sql**,
 add user defined functions: **instr_function** and **count_function**.
 
 	
-Reference material used: 	www.sqlines.com/oracle/functions/instr
-				www.sqlines.com/oracle/function/substr
-				www.sql-server-helper.com/functions/count-character.aspx
+Reference material used: 
+	
+www.sqlines.com/oracle/functions/instr
+www.sqlines.com/oracle/function/substr
+www.sql-server-helper.com/functions/count-character.aspx
 
 
 
