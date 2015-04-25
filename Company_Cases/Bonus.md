@@ -9,7 +9,7 @@ to automatically be done over all records in the stage table,
 we would need to create an explicit cursor to hold all the records, 
 and then using the previous method to process over all records.
     
-For Oracle in PL/SQL view the procedure all_emails.sql.
+For Oracle in PL/SQL view the procedure **all_emails.sql**.
 
 Notice that after the last email address is processed for each employee_id.  
 The counters must be reset for the position to start the next record for the 
