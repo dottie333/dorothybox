@@ -17,7 +17,7 @@ Employee_email table as follows:
 
 The email_address field contains multiple email addresses, separated by semicolons. 
 
-We need to separate the email address from the stage_employee tables, for each employee, 
+We need to separate the email address from the stage_employee tables 
 and insert them into the employee_email table. 
  
 The sample stage_employee table
