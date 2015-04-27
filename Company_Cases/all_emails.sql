@@ -37,5 +37,6 @@ begin
   	start_it := 1;
 
 	end loop;
+	close allrecords;
   commit;
 end;
