@@ -8,3 +8,6 @@ be correct or the most optimized way of answering corporate user cases.
 I am only providing this to stimulate your creativity. 
 
 I will continue to add updates. 
+
+This case is based on moving data from an Unstructured 
+NOSQL environment into a Structured SQL environment.  
