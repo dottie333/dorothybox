@@ -32,7 +32,10 @@ timeline.
 
 This will also be address in second phases.  
 
-The remaining data is very uniform.  If seems unlikely, unless it is a template for all hospitals to use.   
+The remaining data is very uniform.  This may be the structure of Medicare. It would be helpful  
+to talk with someone that knows the system well.  I am sure we could figure out what else needs  
+to be done.  
+
 With the exclusion of the above items, there are 17 providers for each City and 17 measures for each hospital.  
- 
+
 Attached is a copy of my analyses
