@@ -1,11 +1,48 @@
-# Worse Reports  
+# Better and Worse Data Reports  
   
-These reports show the states and hospitals that scored higher than the national average   
-for measure ID for a given time period.   State and national averages do not include  
-VHA hospital data.  
+There are sets of Better and Worse Reports for Measure ID for all 17 Measures:  
+  
+1.	Better_Report_COM_HIP_KNEE_04_01_2013_to_3_31_2016  
+	-	COMP_HIP_KNEE    
+2.	Better_Report_MORT_7_1_2013_TO_3_30_2016    
+	-	MORT_30_AMI      
+	-	MORT_30_CABG    
+	-	MORT_30_COPD    
+	-	MORT_30_HF    
+	-	MORT_30_PN  
+	-	MORT_30_STK  
+3.	Better_Report_PSI_7_1_2013_to_6_30_2015  
+	-	PSI_3_ULCER  
+	-	PSI_4_SURG_COMP  
+	-	PSI_6_IAT_PTX  
+	-	PSI_7_CVCBI  
+	-	PSI_8_POST_HIP  
+	-	PSI_12_POSTOP_PULMEMB_DVT  
+	-	PSI_13_PSOT_SEPSIS  
+	-	PSI_14_POSTOP_DEHIS  
+	-	PSI_15_ACC_LAC  
+	-	PSI_90_SAFETY  
+4.	Worse_Report_COM_HIP_KNEE_04_01_2013_to_3_31_2016  
+	-	COMP_HIP_KNEE  
+5.	Worse_Report_MORT_7_1_2013_TO_3_30_2016  
+	-	MORT_30_AMI  
+	-	MORT_30_CABG  
+	-	MORT_30_COPD  
+	-	MORT_30_HF  
+	-	MORT_30_PN  
+	-	MORT_30_STK  
+6.	Worse_Report_PSI_7_1_2013_to_6_30_2015  
+	-	PSI_3_ULCER  
+	-	PSI_4_SURG_COMP  
+	-	PSI_6_IAT_PTX  
+	-	PSI_7_CVCBI  
+	-	PSI_8_POST_HIP  
+	-	PSI_12_POSTOP_PULMEMB_DVT  
+	-	PSI_13_PSOT_SEPSIS  
+	-	PSI_14_POSTOP_DEHIS  
+	-	PSI_15_ACC_LAC  
+	-	PSI_90_SAFETY  
 
-Only one measure ID did not have data of the worse count, Measure ID:  PSI_8_POST_HIP:  
-Thereby causing only 16 reports to be generated.  The reports will be added until completed.   
-I originally created in SQL Server Report Builder 3.0.  However, for better viewing,   
-I added the results to excel worksheets.    
+That is Phase 1, Phase2, and Phase3 of my analysis.   All data is available at:  
+ https://data.medicare.gov/data/hospital-compare  
 
