@@ -1,0 +1,8 @@
+Correction Needed!  
+
+
+“City and County Pivot “chart is not showing the correct City count.  
+
+It is showing Measure count and not City count. 
+  
+Working on correction
