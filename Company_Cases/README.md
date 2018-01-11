@@ -10,4 +10,5 @@ I am only providing this to stimulate your creativity.
 I will continue to add updates. 
 
 This case is based on moving data from an Unstructured 
-NOSQL environment into a Structured SQL environment.  
+NOSQL environment into a Structured SQL environment.
+..  
