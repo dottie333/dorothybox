@@ -76,4 +76,5 @@ States and Abbreviations
 -	WA__Washington 
 -	WI__Wisconsin 
 -	WV__West Virginia  
--	WY__Wyoming  
+-	WY__Wyoming 
+00 

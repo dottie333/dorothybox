@@ -44,5 +44,5 @@ There are sets of Better and Worse Reports for Measure ID for all 17 Measures:
 	-	PSI_90_SAFETY  
 
 That is Phase 1, Phase2, and Phase3 of my analysis.   All data is available at:  
- https://data.medicare.gov/data/hospital-compare  
+ https://data.medicare.gov/data/hospital-compare  ...
 
