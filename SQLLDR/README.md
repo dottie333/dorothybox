@@ -9,3 +9,4 @@ If you are already familiar with the Oracle database, you should not have any pr
 Read the **Pre-Data-Loading** document first.
 
 Then follow up by following the **SQL_loader_simplified** PowerPoint presentation.
+.
