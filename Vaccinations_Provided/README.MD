@@ -6,7 +6,9 @@ The dataset can be located at
 https://data.austintexas.gov/Health-and-Community-Services/Adult-and-Children-Vaccinations-Provided/nttt-2a35 . 
   
 There is one Date that is unusual in 2012, 10/10/2012 for Big Shots Far South.   
-It may cause the calculations to be off for that location.   
+It may cause the calculations to be off for that location.  
+  
+Also, May 31,2017 shows only 14 vaccinations were given at the location for Shots for Tots Far South.  
 
 For year 2017 there are only 10 months of data.  
 
