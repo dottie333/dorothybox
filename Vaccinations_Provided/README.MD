@@ -14,4 +14,4 @@ For year 2017 there are only 10 months of data.
 
 The months of November and December of 2017 are not available.  
  
-The analysis is done in Microsoft Excel and Microsoft Access. 
+The analysis is done in Microsoft Excel and Microsoft Access.. 
